@@ -17,7 +17,7 @@ public class Common {
 
     private static final String BASE_URL = "https://newsapi.org/";
 
-    public static final String API_KEY = "aeb3a90e400442b5a57644f770d9bbc5";
+    public static final String API_KEY = "your api key";
 
     public static NewsService getNewsService() {
 
@@ -29,7 +29,7 @@ public class Common {
         return IconBetterIdeaClient.getclient().create(IconBetterIdeaService.class);
     }
 
-    //https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=aeb3a90e400442b5a57644f770d9bbc5
+   
 
     public static String getAPIUrl(String source,String apiKEY){
         StringBuilder apiUrl= new StringBuilder("https://newsapi.org/v2/top-headlines?sources=")
